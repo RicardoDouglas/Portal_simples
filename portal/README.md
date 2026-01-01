@@ -5,11 +5,11 @@ Este repositório contém um pequeno portal web construído com Python Flask.
 
 # Estrutura do repositório
 .
-├── app.py               # Código da aplicação Flask
-├── Dockerfile           # Instruções para criar a imagem Docker
-├── requirements.txt     # Dependência única: Flask
-├── .gitignore           # Ignora arquivos de build, IDEs, etc.
-└── README.md            # Este documento
+app.py               # Código da aplicação Flask
+Dockerfile           # Instruções para criar a imagem Docker
+requirements.txt     # Dependência única: Flask
+.gitignore           # Ignora arquivos de build, IDEs, etc.
+README.md            # Este documento
 
 # Como rodar localmente (sem Docker)
 
