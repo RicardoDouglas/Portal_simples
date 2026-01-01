@@ -1,6 +1,7 @@
 # Portal Flask – Um exemplo simples para rodar em Docker
 
 Descrição
+
 Este repositório contém um pequeno portal web construído com Python Flask.
 
 # Estrutura do repositório
