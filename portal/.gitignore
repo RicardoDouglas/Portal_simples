@@ -1,0 +1,95 @@
+# ---------- Python ----------
+# Compiled byte‑code
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments (caso use venv ou conda)
+venv/
+ENV/
+env/
+.venv/
+.conda/
+
+# PyInstaller / cx_Freeze builds
+*.spec
+
+# ------------------------------
+
+# ---------- Flask ----------
+# Arquivos de sessão temporários
+instance/
+*.sqlite3
+*.db
+
+# Logs da aplicação
+*.log
+logs/
+
+# Uploads temporários (se houver)
+uploads/
+media/
+
+# ------------------------------
+
+# ---------- Docker ----------
+# Imagens e containers locais (não são arquivos, mas boas práticas)
+docker-compose.override.yml
+
+# Docker secrets (se usar)
+secrets/
+
+# ------------------------------
+
+# ---------- IDE / Editor ----------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Emacs / Vim backups
+*~
+\#*#
+.*.swp
+
+# ------------------------------
+
+# ---------- OS ----------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ------------------------------
+
+# ---------- Misc ----------
+# Arquivos de teste gerados
+coverage.xml
+*.cover
+*.pytest_cache/
+htmlcov/
+
+# Arquivos de configuração local que podem conter segredos
+.env
+.env.*   # caso use arquivos .env diferentes por ambiente
+
+# ------------------------------
