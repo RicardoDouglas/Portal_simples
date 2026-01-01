@@ -2,6 +2,7 @@
 
 Descrição
 
+
 Este repositório contém um pequeno portal web construído com Python Flask.
 
 # Estrutura do repositório
